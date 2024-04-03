@@ -2,32 +2,32 @@ import Image from "next/image";
 import React from "react";
 
 
-const ClaudPic = [
-    <Image 
-    src= "/assets/DecorWhite.png"
-    alt="whiteThing"
-    width={1335}
-    height={110}
-    className= "sm:max-2xl:w-auto"
-  />
-]
-const RectYellow = [
-    <Image 
-    src= "/assets/RectYellow.png"
-    alt="RectYellow"
-    width={1290}
-    height={83}
-    className="sm:max-2xl:w-[1024px]"
-  />
-]
-const PointerDown = [
-  <Image 
-  src= "/assets/PointerDown.png"
-  alt="RectYellow"
-  width={425}
-  height={54}
-/>
-]
+// const ClaudPic = [
+//     <Image 
+//     src= "/assets/DecorWhite.png"
+//     alt="whiteThing"
+//     width={1335}
+//     height={110}
+//     className= "sm:max-2xl:w-auto"
+//   />
+// ]
+// const RectYellow = [
+//     <Image 
+//     src= "/assets/RectYellow.png"
+//     alt="RectYellow"
+//     width={1290}
+//     height={83}
+//     className="sm:max-2xl:w-[1024px]"
+//   />
+// ]
+// const PointerDown = [
+//   <Image 
+//   src= "/assets/PointerDown.png"
+//   alt="RectYellow"
+//   width={425}
+//   height={54}
+// />
+// ]
 
 
 const InfoCard = [
@@ -69,7 +69,13 @@ const SubBlockTherapy = () => {
          <p className="text-[#01457A] font-bold text-[16px] sm: text-[22px]"> 
          Терапия ХОБЛ: что в фокусе? </p>  
          </div>
-         <div className="mb-[40px] min-w-[260px]"> {ClaudPic} </div>
+         <div className="mb-[40px] min-w-[260px]">  <Image 
+    src= "/assets/DecorWhite.png"
+    alt="whiteThing"
+    width={1335}
+    height={110}
+    className= "sm:max-2xl:w-auto"
+  /> </div>
      </div>
      <div>
         {/* <h1 className="absolute text-[#01457A] font-bold text-[28px] my-[10px] 
@@ -79,7 +85,13 @@ const SubBlockTherapy = () => {
                        Даже 1 среднетяжелое обострение — сигнал к увеличению объема терапии </h1>
         {/* <div className="mb-[40px] sm:max-2xl:ml-[10px]">  */}
         <div className="mb-[50px]"> 
-        {RectYellow} </div>
+         <Image 
+    src= "/assets/RectYellow.png"
+    alt="RectYellow"
+    width={1290}
+    height={83}
+    className="sm:max-2xl:w-[1024px]"
+  /> </div>
      </div>
      <div className = "min-w-[200px] mt-[80px]">
         <h1 className="text-[#01457A] font-bold text-[18px] text-center my-[20px] mx-[0px]"> 
@@ -128,8 +140,23 @@ const SubBlockTherapy = () => {
       <div className="flex justify-center">
         {/* <div className="flex flex-row mb-[20px] gap-[30px] sm:max-2xl:hidden"> {PointerDown} {PointerDown} </div>
         <div className="flex flex-row mb-[20px] gap-[30px] sm:max-2xl:visible 2xl:hidden"> {PointerDown} </div> */}
-         <div className="flex flex-row mb-[20px] gap-[30px] hidden"> {PointerDown} {PointerDown} </div>
-         <div className="flex flex-row mb-[20px] gap-[30px] sm:max-2xl:visible 2xl:hidden"> {PointerDown} </div>
+         <div className="flex flex-row mb-[20px] gap-[30px] hidden">  <Image 
+  src= "/assets/PointerDown.png"
+  alt="RectYellow"
+  width={425}
+  height={54}
+/>  <Image 
+  src= "/assets/PointerDown.png"
+  alt="RectYellow"
+  width={425}
+  height={54}
+/> </div>
+         <div className="flex flex-row mb-[20px] gap-[30px] sm:max-2xl:visible 2xl:hidden">  <Image 
+  src= "/assets/PointerDown.png"
+  alt="RectYellow"
+  width={425}
+  height={54}
+/> </div>
       </div>
         <div className="flex flex-col gap-[20px] items-center"> 
 
