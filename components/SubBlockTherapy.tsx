@@ -103,9 +103,9 @@ const SubBlockTherapy = () => {
      sm:flex-row items-center justify-between 
      sm:max-low-desk:flex-col sm:max-2xl:gap-y-[15px] sm:max-low-desk:gap-y-[30px] 
      sm:max-xl:gap-y-[15px] sm:max-xl:flex-col "> */}
-     <div className="flex flex-col 
+     <div className="flex flex-col desc-1820:flex-row
       items-center justify-between 
-     gap-y-[15px]
+     gap-y-[15px] 
      ">
         {InfoCard.map((card, index) => {
             
@@ -117,8 +117,7 @@ const SubBlockTherapy = () => {
           //  ">   
           <div key={index} className="rounded-2xl sm:border 
           flex flex-col items-center w-[250px] h-[508px] bg-gradient-to-r from-stone-50 to-sky-100 shadow-xl
-          sm:w-[400px]
-         ">   
+          sm:w-[400px] 2xl:w-[410px] 2xl:h-[608px]">   
             {/* <Image 
              src= {card.image}
              alt="cardImg"
@@ -129,9 +128,9 @@ const SubBlockTherapy = () => {
              <div className="w-[178px] h-[145px] mt-[10px]"> <img src = {card.img}/></div> 
               {/* <div className="text-[#01457A] font-base text-[28px] text-center">  */}
               <div className="text-[#01457A] font-base text-[20px] text-center">
-              <h1 className="my-[15px] sm:text-[25px]">{card.title} <span className="font-bold">{card.subTitleBold}</span> {card.subTitleRest} </h1> </div>
+              <h1 className="my-[15px] sm:text-[25px] 2xl:text-[28px] xl:text-[20px]">{card.title} <span className="font-bold">{card.subTitleBold}</span> {card.subTitleRest} </h1> </div>
               {/* <div className="text-[#01457A] font-base text-[24px] text-center mb-[30px]"> */}
-              <div className="text-[#01457A] font-base text-[16px] text-center mb-[30px] sm:text-[20px] sm:mx-[10px]">
+              <div className="text-[#01457A] font-base text-[16px] text-center mb-[30px] sm:text-[20px] sm:mx-[10px] 2xl:text-[24px] xl:text-[20px]">
                  <h1> {card.description} <sup>{card.descriptionSup}</sup></h1></div> 
             </div>
           );
@@ -141,34 +140,39 @@ const SubBlockTherapy = () => {
       <div className="flex justify-center">
         {/* <div className="flex flex-row mb-[20px] gap-[30px] sm:max-2xl:hidden"> {PointerDown} {PointerDown} </div>
         <div className="flex flex-row mb-[20px] gap-[30px] sm:max-2xl:visible 2xl:hidden"> {PointerDown} </div> */}
-         <div className="flex flex-row mb-[20px] gap-[30px] hidden">  <Image 
-  src= "/assets/PointerDown.png"
-  alt="RectYellow"
-  width={425}
-  height={54}
-/>  <Image 
-  src= "/assets/PointerDown.png"
-  alt="RectYellow"
-  width={425}
-  height={54}
-/> </div>
-         <div className="flex flex-row mb-[20px] gap-[30px] sm:max-2xl:visible 2xl:hidden">  <Image 
-  src= "/assets/PointerDown.png"
-  alt="RectYellow"
-  width={425}
-  height={54}
-/> </div>
-      </div>
-        <div className="flex flex-col gap-[20px] items-center"> 
+         <div className="flex flex-row mb-[20px] gap-[30px] zero:max-desc-1820:hidden 2xl:visible">  
+          <Image 
+          src= "/assets/PointerDown.png"
+          alt="RectYellow"
+          width={425}
+          height={54}
+          />  
+          <Image 
+          src= "/assets/PointerDown.png"
+          alt="RectYellow"
+          width={425}
+          height={54}
+          /> 
+         </div>
 
-            <div className="flex ml-[-10px] rounded-2xl sm:border flex-col shadow-xl w-[250px] h-[540px] bg-gradient-to-r from-stone-50 to-sky-100 
-            mobile-425:w-[350px] sm:w-[450px] sm:h-[400px]">  
-              <h1 className="text-[#01457A] font-base text-[18.4px] text-left my-[30px] mx-[15px] sm:text-[20px]">  Пациентам с ХОБЛ рекомендуется комбинирование бронходилататоров с разными механизмами действия;
+         <div className="flex flex-row mb-[20px] gap-[30px] zero:max-2xl:visible desc-1820:hidden"> 
+          <Image 
+          src= "/assets/PointerDown.png"
+          alt="RectYellow"
+          width={425}
+          height={54}
+        /> </div>
+      </div>
+        <div className="flex flex-col gap-y-[20px] items-center 2xl:flex-row 2xl:gap-x-[30px]"> 
+
+            <div className="flex rounded-2xl sm:border flex-col shadow-xl w-[250px] h-[540px] bg-gradient-to-r from-stone-50 to-sky-100 
+            mobile-425:w-[350px] sm:w-[450px] sm:h-[400px] 2xl:w-[630px] 2xl:h-[400px] ">  
+              <h1 className="text-[#01457A] font-base text-[18.4px] text-left my-[30px] mx-[15px] sm:text-[20px] 2xl:text-[20px] desc-1820:text-[24px]">  Пациентам с ХОБЛ рекомендуется комбинирование бронходилататоров с разными механизмами действия;
               Назначение 2-х бронходилататоров из группы длительнодействующих β2-агонистов (ДДБА) и длительнодействующих антихолинергиков (ДДАХ), действие которых дополняет и усиливает друг друга <sup>1 </sup>.</h1>
             </div>
-            <div className="flex ml-[-10px] rounded-2xl sm:border  flex-col shadow-xl w-[250px] h-[830px] bg-gradient-to-r from-stone-50 to-sky-100 
-             mobile-425:w-[350px] mobile-425:h-[550px] mb-[40px] sm:w-[450px] sm:h-[420px]">   
-             <div className="text-[#01457A] font-base text-[20px] text-left my-[30px] mx-[15px] sm:text-[20px]"> 
+            <div className="flex rounded-2xl sm:border  flex-col shadow-xl w-[250px] h-[830px] bg-gradient-to-r from-stone-50 to-sky-100 
+             mobile-425:w-[350px] mobile-425:h-[550px] mb-[40px] sm:w-[450px] sm:h-[420px] 2xl:w-[630px] 2xl:h-[400px]">   
+             <div className="text-[#01457A] font-base text-[20px] text-left my-[30px] mx-[15px] sm:text-[20px] 2xl:text-[20px] desc-1820:text-[24px]"> 
              <h1> Пациентам с ХОБЛ и частыми обострениями (≥2 среднетяжелых обострений в течение 1 года/1 тяжелое обострение, потребовавшее госпитализации) рекомендуется назначение ИГКС в дополнение к ДДБА; </h1>
              <h1> Последние исследования показали, что амбулаторное применение ИГКС/ДДБА у пациентов с ХОБЛ снижает госпитальную летальность по сравнению с пациентами, принимавшими только ДДБА (8,1% vs 13,2%) <sup>1 </sup>.</h1> 
             </div>

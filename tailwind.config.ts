@@ -20,6 +20,8 @@ const config: Config = {
       'low-desk':'1900px',
       'mobile-375':'375px',
       'mobile-425':'425px',
+      'zero':'0px',
+      'desc-1820':'1820px',
     },
     },
    

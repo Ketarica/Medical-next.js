@@ -9,7 +9,7 @@ export default function ModalFirst({visible, onClose}) {
   return (
     <div id="module" onClick={handleOnClose} className="z-[2] fixed inset-0 bg-black bg-opacity-25 backdrop-blur-sm flex items-center justify-center">
       {/* <div className="bg-white rounded-2xl w-[1290px] h-[770px] sm:border-[#01457A] sm:border sm:max-2xl:w-[900px] sm:max-2xl:h-[540px] " > */}
-      <div className="bg-white rounded-2xl w-[250px] h-[770px] sm:border-[#01457A] sm:border sm:max-2xl:w-[900px] sm:max-2xl:h-[540px]  md:w-[700px]" >
+      <div className="bg-white rounded-2xl w-[250px] h-[770px] sm:border-[#01457A] sm:border sm:max-2xl:w-[900px] sm:max-2xl:h-[540px]  md:w-[700px] desc-1820:w-[1290px] desc-1820:h-[749px]" >
         {/* <h1 className="font-normal text-left text-[24px] text-[#01457A] mx-[38px] mt-[40px] sm:max-2xl:text-[15px] sm:max-2xl:mx-[38px] mt-[40px]"> */}
         <h1 className="font-normal text-left text-[15px] text-[#01457A] mx-[30px] mt-[40px] sm:max-2xl:text-[15px] sm:max-2xl:mx-[38px] mt-[40px]">
         В десятилетнем исследовании <span className="font-bold">  «Генетическая эпидемиология ХОБЛ» (COPDGene) </span>
