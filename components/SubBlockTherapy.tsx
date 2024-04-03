@@ -119,13 +119,15 @@ const SubBlockTherapy = () => {
           flex flex-col items-center w-[250px] h-[508px] bg-gradient-to-r from-stone-50 to-sky-100 shadow-xl
           sm:w-[400px]
          ">   
-            <Image 
+            {/* <Image 
              src= {card.image}
              alt="cardImg"
              width={178}
              height={145}
              className="flex mt-[30px]"
-             />
+             /> */}
+             <div className="w-[178px] h-[145px] mt-[10px]">
+              <img src = {card.image} /> </div> 
               {/* <div className="text-[#01457A] font-base text-[28px] text-center">  */}
               <div className="text-[#01457A] font-base text-[20px] text-center">
               <h1 className="my-[15px] sm:text-[25px]">{card.title} <span className="font-bold">{card.subTitleBold}</span> {card.subTitleRest} </h1> </div>
