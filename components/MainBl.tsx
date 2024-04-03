@@ -1,13 +1,13 @@
 import Image from "next/image";
 import React from "react";
-const PointerDown = [
-  <Image 
-  src= "/assets/PointerDown.png"
-  alt="RectYellow"
-  width={425}
-  height={54}
-/>
-]
+// const PointerDown = [
+//   <Image 
+//   src= "/assets/PointerDown.png"
+//   alt="RectYellow"
+//   width={425}
+//   height={54}
+// />
+// ]
 const MainBl = () => {
   return (
     <section className="flex">
