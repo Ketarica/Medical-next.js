@@ -3,32 +3,32 @@ import React from "react";
 
 const SubBlock = () => {
 
-const ArrowBg = [
-        <Image 
-        src= "/assets/ArrowBg.png"
-        alt="ArrowBg"
-        width={295}
-        height={114.5}
-        max-width={295}
-        max-height={114.5}
-      />
-    ]
-const CirclePortrait = [
-        <Image 
-        src= "/assets/Portrait.png"
-        alt="Portrait"
-        width={80}
-        height={80}
-      />
-    ]
-const CircleArrow = [
-        <Image 
-        src= "/assets/ArrowYellow.png"
-        alt="ArrowYellow"
-        width={80}
-        height={80}
-      />
-    ]
+// const ArrowBg = [
+//         <Image 
+//         src= "/assets/ArrowBg.png"
+//         alt="ArrowBg"
+//         width={295}
+//         height={114.5}
+//         max-width={295}
+//         max-height={114.5}
+//       />
+//     ]
+// const CirclePortrait = [
+//         <Image 
+//         src= "/assets/Portrait.png"
+//         alt="Portrait"
+//         width={80}
+//         height={80}
+//       />
+//     ]
+// const CircleArrow = [
+//         <Image 
+//         src= "/assets/ArrowYellow.png"
+//         alt="ArrowYellow"
+//         width={80}
+//         height={80}
+//       />
+//     ]
     
 
   return (
@@ -41,7 +41,12 @@ const CircleArrow = [
        {/* <div className="2xl:min-w-[80px] 2xl:min-h-[80px] sm:max-2xl:hidden">  */}
       
          <div className="absolute 2xl:min-w-[80px] 2xl:min-h-[80px] max-lg:hidden lg:mt-[10px]"> 
-       {CirclePortrait} 
+       <Image 
+        src= "/assets/Portrait.png"
+        alt="Portrait"
+        width={80}
+        height={80}
+      />
        </div>
                
           <div className=""> 
@@ -58,7 +63,14 @@ const CircleArrow = [
           <div className=" min-w-[200px] max-w-[250px] min-h-[100px] max-h-[100px] my-[10px] ml-[30px] sm:items-center sm:mx-[60px] 
           sm:min-w-[250px] sm:max-w-[250px]  md:mx-[150px]">
             
-             {ArrowBg} </div> 
+              <Image 
+        src= "/assets/ArrowBg.png"
+        alt="ArrowBg"
+        width={295}
+        height={114.5}
+        max-width={295}
+        max-height={114.5}
+      /> </div> 
              </div>
          
        
@@ -72,7 +84,12 @@ const CircleArrow = [
       
        {/* <div className="2xl:min-w-[80px] 2xl:min-h-[80px] sm:max-2xl:hidden">  */}
        <div className="absolute 2xl:min-w-[80px] 2xl:min-h-[80px] max-lg:hidden lg:mt-[10px] "> 
-       {CircleArrow} 
+        <Image 
+        src= "/assets/ArrowYellow.png"
+        alt="ArrowYellow"
+        width={80}
+        height={80}
+      /> 
        </div>
       
                  <div className="relative"> 
@@ -86,7 +103,14 @@ const CircleArrow = [
                 {/* <div className="min-w-[250px] max-w-[250px] min-h-[100px] max-h-[100px] text-[#01457A] sm:max-2xl:ml-[400px] sm:max-2xl:mb-[30px]">  */}
                 <div className=" min-w-[200px] max-w-[250px] min-h-[100px] max-h-[100px] mb-[10px] ml-[30px] mt-[10px] sm:mx-[60px] sm:min-w-[250px]
                 md:mx-[150px]">
-                {ArrowBg} </div>
+                <Image 
+        src= "/assets/ArrowBg.png"
+        alt="ArrowBg"
+        width={295}
+        height={114.5}
+        max-width={295}
+        max-height={114.5}
+      /> </div>
           
               
        <p className="text-2xl text-[#01457A] text-[20px] sm:text-center sm:text-[22px] xl:absolute xl:text-left xl:ml-[450px] xl:mr-[100px]"> Большинство пациентов с ХОБЛ столкнется с обострениями: как минимум одно среднетяжелое или тяжелое обострение случится в течение... </p>
