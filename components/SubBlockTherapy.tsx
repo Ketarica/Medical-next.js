@@ -38,7 +38,7 @@ const InfoCard = [
       subTitleRest: " ",
       description: "Ингибирует бронхоконстрикторные эффекты ацетилхолина, вступая с ним в конкурентный антагонизм за взаимодействие с эффекторными мускариновыми рецепторами, дополняет и потенцирует эффект β2-агонистов",
       descriptionSup:"1",
-      image: "/assets/inh1.png",
+      img: "/assets/inh1.png",
     },
     {
       id: 2,
@@ -47,7 +47,7 @@ const InfoCard = [
       subTitleRest: " ",
       description: "Вызывает бронходилатацию посредством релаксации гладкомышечных клеток бронхов независимо от характера констриктивных стимулов, т. е. выступают в качестве функциональных антагонистов бронхоконстрикции",
       descriptionSup:" ",
-      image: "/assets/inh2.png",
+      img: "/assets/inh2.png",
     },
     {
       id: 3,
@@ -56,7 +56,7 @@ const InfoCard = [
       subTitleRest: "(ИГКС)",
       description: "Снижает частоту обострений, особенно в сочетании с ДДБА, подавляют хроническое воспаление при астме и снижают гиперреактивность дыхательных путей",
       descriptionSup:" ",
-      image: "/assets/inh3.png",
+      img: "/assets/inh3.png",
     },
   ];
 
@@ -126,8 +126,7 @@ const SubBlockTherapy = () => {
              height={145}
              className="flex mt-[30px]"
              /> */}
-             <div className="w-[178px] h-[145px] mt-[10px]">
-              <img src = {card.image} /> </div> 
+             <div className="w-[178px] h-[145px] mt-[10px]"> <img src = {card.img}/></div> 
               {/* <div className="text-[#01457A] font-base text-[28px] text-center">  */}
               <div className="text-[#01457A] font-base text-[20px] text-center">
               <h1 className="my-[15px] sm:text-[25px]">{card.title} <span className="font-bold">{card.subTitleBold}</span> {card.subTitleRest} </h1> </div>
